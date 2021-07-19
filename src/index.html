@@ -7,6 +7,20 @@
     <title>To-do-list</title>
 </head>
 <body>
-    <p>helo</p>
+    <main class="">
+        <div class="d-flex flex-column align-items-center justify-content-center container my-5">
+            <div class="d-flex align-items-center justify-content-around">
+                <h2 class="py-1 px-2 mx-2">To-Dos</h2>
+                <i class="fas fa-sync-alt"></i>
+            </div>
+            <div class="d-flex m-2 w-20" >
+                <input type="text" class="form-control" id="inputTask" placeholder="Add to your list..." />
+            </div>
+            <ul id="tasks" class="d-flex w-100 flex-column list-group px-2"></ul>
+            <a href="#">
+                <p class="p-1">Clear all completed</p>
+            </a>
+        </div>
+    </main>
 </body>
 </html>
