@@ -1,17 +1,18 @@
 main {
-    margin: 0 auto;
-    background-color: white;
-    border-top: 20px black solid;
-    border-bottom: 20px black solid;
-    width: 80%}
+  margin: 0 auto;
+  background-color: white;
+  border-top: 20px black solid;
+  border-bottom: 20px black solid;
+  width: 80%;
+}
 
 .container {
-    width: 70%;
-    height: 100%;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  width: 70%;
+  height: 100%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 li {
-    list-style-type: none;
-    text-decoration: none;
+  list-style-type: none;
+  text-decoration: none;
 }
