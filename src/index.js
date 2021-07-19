@@ -21,7 +21,7 @@ const addTasks = (tasks) => {
     const li = document.createElement('li');
     const task = tasks[i];
     li.innerHTML = `
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-between border-bottom py-2">
                 <div>
                 <input class="checkbox m-2" type="checkbox" id="${task.index}">
                 <label for="${task.index}">${task.description}</label>
