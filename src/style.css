@@ -6,7 +6,25 @@ main {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
-li {
+ul {
   list-style-type: none;
+}
+
+a {
   text-decoration: none;
+  color: black;
+}
+
+.draggable {
+  cursor: move;
+}
+
+.hover {
+  background-color: gray;
+  opacity: 0.6;
+}
+
+.hover2 {
+  background-color: rgb(255, 0, 64);
+  opacity: 0.6;
 }
