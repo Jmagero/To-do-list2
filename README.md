@@ -9,7 +9,7 @@
 - CSS
 ## Live Demo
 
-[Live Demo Link](https://optimistic-jepsen-899b1b.netlify.app/)
+[Live Demo Link](https://pensive-shaw-5948b1.netlify.app/)
 
 ## Getting Started
 
