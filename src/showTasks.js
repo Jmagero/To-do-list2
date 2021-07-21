@@ -4,8 +4,6 @@ import sort from './sort.js';
 // eslint-disable-next-line import/no-cycle
 import checkbox from './checkBox.js';
 
-
-
 const addTasks = () => {
   const taskContainer = document.querySelector('#tasks');
   let indexOfCheckboxes = -1;

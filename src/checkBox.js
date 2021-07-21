@@ -19,5 +19,4 @@ const checkbox = () => {
   });
 };
 
-export default checkbox
-
+export default checkbox;
