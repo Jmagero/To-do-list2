@@ -6,7 +6,20 @@ main {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
-li {
+ul {
   list-style-type: none;
-  text-decoration: none;
+}
+
+.hover div {
+  background-color: gray;
+  opacity: 0.6;
+}
+
+.hover2 div {
+  background-color: blue;
+  opacity: 0.6;
+}
+
+.completed {
+  text-decoration: black line-through;
 }
