@@ -2,19 +2,22 @@
 import { saveTasks } from './localStorage.js';
 import { tasks } from './taskClass.js';
 
-export default () => {
+const checkbox = () => {
   const checkboxes = document.querySelectorAll('.checkbox');
-  for (let i = 0; i < checkboxes.length; i += 1) {
-    checkboxes[i].addEventListener('change', () => {
-      if (checkboxes[i].checked) {
-        const index = checkboxes[i].id;
-        tasks[index].completed = true;
+  checkboxes.forEach((e) => {
+    e.addEventListener('change', () => {
+      const index2 = e.id;
+      if (e.checked) {
+        tasks[index2].completed = true;
+        e.nextSibling.nextSibling.classList.add('completed');
         saveTasks();
       } else {
-        const index = checkboxes[i].id;
-        tasks[index].completed = false;
+        tasks[index2].completed = false;
         saveTasks();
       }
     });
-  }
+  });
 };
+
+export default checkbox
+

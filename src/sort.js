@@ -14,7 +14,7 @@ const sort = () => {
     });
 
     e.addEventListener('dragend', () => {
-      e.classList.remove('hover');
+      e.classList.remove('hover2');
     });
 
     e.addEventListener('dragenter', (event) => {
@@ -33,12 +33,9 @@ const sort = () => {
       e.classList.remove('hover2');
       dropped = e.children[0].children[0].id;
       const swap = (arr, draggedIndex, droppedIndex) => {
-        const temp = arr[droppedIndex].description;
-        arr[droppedIndex].description = arr[draggedIndex].description;
-        arr[draggedIndex].description = temp;
-        const temp2 = arr[droppedIndex].completed;
-        arr[droppedIndex].completed = arr[draggedIndex].completed;
-        arr[draggedIndex].completed = temp2;
+        const temp = arr[droppedIndex];
+        arr[droppedIndex] = arr[draggedIndex];
+        arr[draggedIndex] = temp;
         addTasks();
         saveTasks();
       };

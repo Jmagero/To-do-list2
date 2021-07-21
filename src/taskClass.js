@@ -1,8 +1,8 @@
 export const tasks = [];
 export class Task {
-  constructor(description, completed = false, index = tasks.length) {
+  constructor(id = tasks.length, description, completed = false, ) {
     this.description = description;
     this.completed = completed;
-    this.index = index;
+    this.id = id;
   }
 }

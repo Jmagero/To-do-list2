@@ -10,21 +10,16 @@ ul {
   list-style-type: none;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
-
-.draggable {
-  cursor: move;
-}
-
-.hover {
+.hover div {
   background-color: gray;
   opacity: 0.6;
 }
 
-.hover2 {
-  background-color: rgb(255, 0, 64);
+.hover2 div {
+  background-color: blue;
   opacity: 0.6;
+}
+
+.completed {
+  text-decoration: black line-through;
 }
