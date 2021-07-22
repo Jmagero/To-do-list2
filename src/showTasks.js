@@ -1,7 +1,6 @@
+/* eslint-disable import/no-cycle */
 import { tasks } from './taskClass.js';
-// eslint-disable-next-line import/no-cycle
 import sort from './sort.js';
-// eslint-disable-next-line import/no-cycle
 import checkbox from './checkBox.js';
 import editTask from './editTask.js';
 
