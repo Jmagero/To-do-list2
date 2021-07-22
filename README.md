@@ -1,12 +1,12 @@
 # TODO LIST
 
 > To Do List is a simple HTML list of To Do tasks.  This simple web page is built using webpack and served by a webpack dev server.
-
 ## Built With
 
 - Javascript,
 - HTML,
-- CSS
+- CSS,
+- webpack
 ## Live Demo
 
 [Live Demo Link](https://confident-joliot-4f3a14.netlify.app/)
