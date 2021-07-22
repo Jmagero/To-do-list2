@@ -1,6 +1,6 @@
 /* eslint-disable import/no-cycle */
-import { saveTasks } from './localStorage.js';
-import { tasks } from './taskClass.js';
+import { saveTasks } from './localStorage';
+import { tasks } from './taskClass';
 
 const checkbox = () => {
   const checkboxes = document.querySelectorAll('.checkbox');

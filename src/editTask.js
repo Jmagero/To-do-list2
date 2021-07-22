@@ -1,7 +1,7 @@
 /* eslint-disable import/no-cycle */
-import { saveTasks } from './localStorage.js';
-import addTasks from './showTasks.js';
-import { tasks } from './taskClass.js';
+import { saveTasks } from './localStorage';
+import addTasks from './showTasks';
+import { tasks } from './taskClass';
 
 const editTask = () => {
   const labelSelector = document.querySelectorAll('label[id]');

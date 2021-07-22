@@ -1,7 +1,7 @@
 /* eslint-disable import/no-cycle */
-import { tasks } from './taskClass.js';
-import addTasks from './showTasks.js';
-import { saveTasks } from './localStorage.js';
+import { tasks } from './taskClass';
+import addTasks from './showTasks';
+import { saveTasks } from './localStorage';
 
 const sort = () => {
   const draggables = document.querySelectorAll('.draggable');

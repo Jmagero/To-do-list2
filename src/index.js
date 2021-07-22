@@ -1,9 +1,9 @@
 import './style.css';
-import '@fortawesome/fontawesome-free/js/all.js';
+import '@fortawesome/fontawesome-free/js/all';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { getTasks } from './localStorage.js';
-import enterEvent from './enterEvent.js';
-import deleteTask from './delete.js';
+import { getTasks } from './localStorage';
+import enterEvent from './enterEvent';
+import deleteTask from './delete';
 
 getTasks();
 enterEvent();

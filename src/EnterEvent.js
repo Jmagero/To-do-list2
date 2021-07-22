@@ -1,6 +1,6 @@
-import addTasks from './showTasks.js';
-import { saveTasks } from './localStorage.js';
-import { Task, tasks } from './taskClass.js';
+import addTasks from './showTasks';
+import { saveTasks } from './localStorage';
+import { Task, tasks } from './taskClass';
 
 const enterEvent = () => {
   const inputSelector = document.querySelector('#inputTask');

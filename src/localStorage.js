@@ -1,6 +1,6 @@
 /* eslint-disable import/no-cycle */
-import { tasks } from './taskClass.js';
-import addTasks from './showTasks.js';
+import { tasks } from './taskClass';
+import addTasks from './showTasks';
 
 const saveTasks = () => {
   localStorage.setItem('tasksKey', JSON.stringify(tasks));

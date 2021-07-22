@@ -1,8 +1,8 @@
 /* eslint-disable import/no-cycle */
-import { tasks } from './taskClass.js';
-import sort from './sort.js';
-import checkbox from './checkBox.js';
-import editTask from './editTask.js';
+import { tasks } from './taskClass';
+import sort from './sort';
+import checkbox from './checkBox';
+import editTask from './editTask';
 
 const addTasks = () => {
   const taskContainer = document.querySelector('#tasks');
