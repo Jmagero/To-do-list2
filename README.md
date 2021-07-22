@@ -9,7 +9,7 @@
 - webpack
 ## Live Demo
 
-[Live Demo Link](https://confident-joliot-4f3a14.netlify.app/)
+[Live Demo Link](https://pensive-wiles-ec5469.netlify.app/)
 
 ## Getting Started
 
