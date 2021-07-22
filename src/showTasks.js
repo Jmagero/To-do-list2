@@ -3,6 +3,7 @@ import { tasks } from './taskClass.js';
 import sort from './sort.js';
 import checkbox from './checkBox.js';
 import editTask from './editTask.js';
+import deleteTask from './delete.js';
 
 const addTasks = () => {
   const taskContainer = document.querySelector('#tasks');
@@ -37,6 +38,7 @@ const addTasks = () => {
   sort();
   checkbox();
   editTask();
+  deleteTask();
 };
 
 export default addTasks;
