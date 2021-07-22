@@ -3,6 +3,7 @@ import { tasks } from './taskClass.js';
 import sort from './sort.js';
 // eslint-disable-next-line import/no-cycle
 import checkbox from './checkBox.js';
+import editTask from './editTask.js';
 
 const addTasks = () => {
   const taskContainer = document.querySelector('#tasks');
@@ -36,6 +37,7 @@ const addTasks = () => {
   });
   sort();
   checkbox();
+  editTask();
 };
 
 export default addTasks;
