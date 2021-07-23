@@ -9,7 +9,7 @@
 - webpack
 ## Live Demo
 
-[Live Demo Link](https://pensive-wiles-ec5469.netlify.app/)
+[Live Demo Link](https://musing-hugle-2acbcb.netlify.app/)
 
 ## Getting Started
 
