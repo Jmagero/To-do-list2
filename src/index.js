@@ -1,10 +1,7 @@
-import './style.css';
-import '@fortawesome/fontawesome-free/js/all';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { getTasks } from './localStorage';
-import enterEvent from './enterEvent.js';
-import deleteTask from './delete';
+import './style.scss';
 
-getTasks();
-enterEvent();
-deleteTask();
+import metListen from './initializer';
+import metTasks from './addtask';
+
+document.getElementsByClassName('fa-calendar-plus')[0].addEventListener('click', () => { metTasks.create(); });
+metListen.createDOM();

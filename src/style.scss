@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+$main-size: 1.5rem;
+$scnd-size: 1rem;
+$main-color: rgb(49, 49, 49);
+$alt-color: rgb(246, 243, 238);
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  font-size: 16px;
+  margin: 1px;
+}
+
+h1 {
+  font-size: $main-size;
+  padding-left: 10px;
+}
+
+div {
+  width: 70%;
+  max-width: 450px;
+  margin: 100px auto;
+  border-right: $main-color 1px solid;
+  border-left: $main-color 1px solid;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: $main-color 1px solid;
+  }
+}
+
+#main:first-child {
+  border-top: $main-color 1px solid;
+}
+
+li {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $alt-color;
+  border-bottom: $main-color 1px solid;
+
+  nav {
+    display: flex;
+  }
+
+  .fa-ellipsis-v {
+    cursor: all-scroll;
+  }
+}
+
+li:nth-child(odd) {
+  background: rgb(238, 238, 238);
+}
+
+ul {
+  width: 100%;
+  padding: 0;
+
+  .onbottom {
+    background-color: rgb(246, 203, 168);
+  }
+}
+
+p {
+  font-size: $scnd-size;
+  padding-left: 16px;
+  cursor: text;
+}
+
+i {
+  cursor: pointer;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.button {
+  padding: 0 0;
+  height: 30px;
+  background-color: rgb(218, 218, 218);
+  cursor: pointer;
+
+  p {
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    padding: 0 0;
+    color: rgb(92, 92, 92);
+  }
+}
+
+.input-field {
+  width: 70%;
+  min-height: 30px;
+  border: none;
+  margin-left: 10px;
+  padding-left: 5px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.error-msg {
+  background-color: rgb(246, 203, 168);
+}
+
+.invisible {
+  display: none;
+}
+
+
+// .container {
+//   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+// }
+
+// ul {
+//   list-style-type: none;
+// }
+
+// .hover div {
+//   background-color: gray;
+//   opacity: 0.6;
+// }
+
+// .hover2 div {
+//   background-color: blue;
+//   opacity: 0.6;
+// }
+
+// .completed {
+//   text-decoration: black line-through;
+// }
